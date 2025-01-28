@@ -5,7 +5,7 @@ from datetime import timedelta
 
 # this program creates a calender event for all quizzes/exams that have a location and seat number already
 
-table_MN = pd.read_html("/Users/samshin/Documents/Projects/quiz_locator/odyssey calendar.html")
+table_MN = pd.read_html("/Users/samshin/Documents/Projects/quiz_locator/quiz-locator/test.html")
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 df = table_MN[0]
